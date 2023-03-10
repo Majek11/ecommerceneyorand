@@ -1,17 +1,30 @@
 import { createTheme } from "@mui/material/styles";
 
+
+
 export const shades = {
   primary: {
-    100: "#cccccc",
-    200: "#999999",
-    300: "#666666",
-    400: "#333333",
-    500: "#000000",
-    600: "#000000",
-    700: "#000000",
-    800: "#000000",
-    900: "#000000",
-  },
+    100: "#f7f0da",
+    200: "#f0e2b5",
+    300: "#e8d390",
+    400: "#e1c56b",
+    500: "#d9b646",
+    600: "#ae9238",
+    700: "#826d2a",
+    800: "#57491c",
+    900: "#2b240e"
+},
+  // primary: {
+  //   100: "#cccccc",
+  //   200: "#999999",
+  //   300: "#666666",
+  //   400: "#333333",
+  //   500: "#000000",
+  //   600: "#000000",
+  //   700: "#000000",
+  //   800: "#000000",
+  //   900: "#000000",
+  // },
   secondary: {
     100: "#f7ccd2",
     200: "#ef99a4",
@@ -51,22 +64,22 @@ export const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: ["Montserrat", "sans-serif"].join(","),
+    fontFamily: ["Fauna One", "sans-serif"].join(","),
     fontSize: 11,
     h1: {
-      fontFamily: ["Montserrat", "sans-serif"].join(","),
+      fontFamily: ["Cinzel", "sans-serif"].join(","),
       fontSize: 50,
     },
     h2: {
-      fontFamily: ["Poppins", "sans-serif"].join(","),
+      fontFamily: ["Cinzel", "sans-serif"].join(","),
       fontSize: 40,
     },
     h3: {
-      fontFamily: ["Poppins", "sans-serif"].join(","),
-      fontSize: 28,
+      fontFamily: ["Cinzel", "sans-serif"].join(","),
+      fontSize: 24,
     },
     h4: {
-      fontFamily: ["Poppins", "sans-serif"].join(","),
+      fontFamily: ["Cinzel", "sans-serif"].join(","),
       fontSize: 20,
     },
   },

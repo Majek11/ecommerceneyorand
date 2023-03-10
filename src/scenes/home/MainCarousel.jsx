@@ -67,7 +67,7 @@ const MainCarousel = () => {
               backgroundAttachment: "fixed",
             }}
           />
-          <Box
+          {/* <Box
             color="white"
             padding="20px"
             borderRadius="1px"
@@ -89,7 +89,7 @@ const MainCarousel = () => {
             >
               Discover More
             </Typography>
-          </Box>
+          </Box> */}
         </Box>
       ))}
     </Carousel>
