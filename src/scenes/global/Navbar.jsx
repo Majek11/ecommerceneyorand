@@ -63,7 +63,7 @@ const Navbar = () => {
             "& .MuiBadge-badge": {
               right: 5,
               top: 5,
-              padding: "0 40px",
+              padding: "10px 9px",
               height: "14px",
               minWidth: "13px",
             },

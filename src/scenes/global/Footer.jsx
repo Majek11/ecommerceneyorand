@@ -1,6 +1,8 @@
 import { useTheme } from "@emotion/react";
+import { Link } from "react-router-dom"
 import { Box, Typography } from "@mui/material";
 import { shades } from "../../theme";
+import FacebookIcon from "@mui/icons-material/FacebookSharp";
 
 function Footer() {
   const {
@@ -46,12 +48,41 @@ function Footer() {
 
         <Box>
           <Typography variant="h4" fontWeight="bold" mb="30px">
-            Customer Care
+            Socials
           </Typography>
-          <Typography mb="30px">Help Center</Typography>
-          <Typography mb="30px">Track Your Order</Typography>
-          <Typography mb="30px">Corporate & Bulk Purchasing</Typography>
-          <Typography mb="30px">Returns & Refunds</Typography>
+          <Box 
+          display="flex"
+          gap="30px"
+          >
+          <Typography mb="30px">
+            <Link to="https://www.facebook.com">
+              <FacebookIcon fontSize="large" /> 
+            </Link>
+          </Typography>
+          <Typography mb="30px">
+            <Link to="https://www.facebook.com">
+              <FacebookIcon fontSize="large" /> 
+            </Link>
+          </Typography>
+          </Box>
+          <Box 
+          display="flex"
+          gap="30px"
+          >
+          <Typography mb="30px">
+            <Link to="https://www.facebook.com">
+              <FacebookIcon fontSize="large" /> 
+            </Link>
+          </Typography>
+          <Typography mb="30px">
+            <Link to="https://www.facebook.com">
+              <FacebookIcon fontSize="large" /> 
+            </Link>
+          </Typography>
+          </Box>
+
+          
+          
         </Box>
 
         <Box width="clamp(20%, 25%, 30%)">
